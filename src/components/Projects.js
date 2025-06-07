@@ -9,14 +9,14 @@ const projects = [
   },
   {
     title: 'Project Two',
-    description: 'An e-commerce site with payment integration.',
+    description: 'Mobile App',
     link: 'https://github.com/yourusername/project-two',
     image: '/project2.png',
   },
   {
     title: 'Project Three',
     description: 'Portfolio website with React and Tailwind CSS.',
-    link: 'https://github.com/yourusername/portfolio',
+    link: 'https://github.com/Hansika-29/my-portfolio.git',
     image: '/project3.png',
   },
 ];
