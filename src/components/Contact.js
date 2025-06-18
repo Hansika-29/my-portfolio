@@ -2,8 +2,8 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <section id="contact" className="my-20 max-w-lg mx-auto">
-      <h3 className="text-3xl font-semibold text-teal-700 mb-6 text-center">Contact Me</h3>
+    <section id="contact" className="scroll-mt-24 my-20 px-4">
+      <h3 className="text-3xl font-semibold text-teal-700 mb-6 text-leftalign">Contact Me</h3>
       <h5
         onSubmit={(e) => {
           e.preventDefault();

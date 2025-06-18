@@ -6,7 +6,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="my-20">
+    <section id="skills" className="scroll-mt-24 my-20 px-4">
       <h3 className="text-3xl font-semibold text-teal-700 mb-6">SKILLS</h3>
       <ul className="grid grid-cols-2 sm:grid-cols-4 gap-4 lg:grid-cols-7 max-w-6xl">
         {skills.map((skill) => (

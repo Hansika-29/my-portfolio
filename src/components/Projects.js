@@ -23,7 +23,7 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="my-20">
+    <section id="projects" className="scroll-mt-24 my-20 px-4">
       <h3 className="text-3xl font-semibold text-teal-700 mb-6">Projects</h3>
       <div className="grid md:grid-cols-3 gap-8">
         {projects.map(({ title, description, link, image }) => (
