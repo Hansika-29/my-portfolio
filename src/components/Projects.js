@@ -2,21 +2,21 @@ import React from 'react';
 
 const projects = [
   {
-    title: 'Project One',
-    description: 'A web app that does XYZ using React and Node.js.',
+    title: 'My Scoop! App',
+    description: 'A web app that works as a planner using React and Node.js.',
     link: 'https://github.com/Hansika-29/hello_world.git',
     image: '/project1.png',
   },
   {
-    title: 'Project Two',
-    description: 'Mobile App',
-    link: 'https://github.com/yourusername/project-two',
+    title: 'Sign Language Recognition',
+    description: 'A website that captures sign language and provides text using AI and TenserFlow',
+    link: 'https://github.com/mdecoder24/Sign-Language-Recognition.git',
     image: '/project2.png',
   },
   {
-    title: 'Project Three',
-    description: 'Portfolio website with React and Tailwind CSS.',
-    link: 'https://github.com/Hansika-29/my-portfolio.git',
+    title: 'Voyage Vue',
+    description: 'Travel Itinerary Planner developed with React and Tailwind CSS.',
+    link: 'https://github.com/Hansika-29/Voyage_vue.git',
     image: '/project3.png',
   },
 ];
