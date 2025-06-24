@@ -1,7 +1,7 @@
 import React from 'react';
 
 const skills = [
-  'JavaScript', 'React', 'Node.js', 'HTML/CSS', 'Tailwind CSS', 'Git', 'REST APIs', 'Testing', 'ReactNative', 'AI', 'Prompt Engineering'
+  'JavaScript', 'React', 'Node.js', 'HTML/CSS', 'Tailwind CSS', 'Git', 'REST APIs', 'Python', 'ReactNative', 'AI', 'Prompt Engineering'
 ];
 
 const Skills = () => {
