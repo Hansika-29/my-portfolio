@@ -8,14 +8,24 @@ const Hero = () => {
         <p className="text-gray-700 mb-6">
           Passionate software developer dedicated to crafting clean, efficient, and scalable web applications.
         </p>
-        <a
-          href="/Hansika Resume 2.pdf"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-block bg-teal-700 text-white px-6 py-3 rounded hover:bg-teal-800 transition"
-        >
-          Download Resume
-        </a>
+        <div className="flex justify-center md:justify-start gap-4 mt-6">
+  <a
+    href="#projects"
+    className="bg-teal-600 text-white px-6 py-3 rounded-full shadow-md hover:bg-teal-700 transition"
+  >
+    Explore My Work
+  </a>
+
+  <a
+    href="/Hansika Resume 2.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-teal-600 text-white px-6 py-3 rounded-full hover:bg-teal-700 transition"
+  >
+    Download Resume
+  </a>
+</div>
+
       </div>
       
     </section>

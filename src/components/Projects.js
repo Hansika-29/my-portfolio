@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 
 const projects = [
   {
@@ -9,7 +10,7 @@ const projects = [
   },
   {
     title: 'Sign Language Recognition',
-    description: 'A website that captures sign language and provides text using AI and TenserFlow',
+    description: 'A website that captures sign language and provides text using AI and TensorFlow.',
     link: 'https://github.com/mdecoder24/Sign-Language-Recognition.git',
     image: '/project2.png',
   },
@@ -26,20 +27,24 @@ const Projects = () => {
     <section id="projects" className="scroll-mt-24 my-20 px-4">
       <h3 className="text-3xl font-semibold text-teal-700 mb-6">Projects</h3>
       <div className="grid md:grid-cols-3 gap-8">
-        {projects.map(({ title, description, link, image }) => (
-          <a
+        {projects.map(({ title, description, link, image }, index) => (
+          <motion.a
             key={title}
             href={link}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-white shadow-lg rounded overflow-hidden hover:shadow-xl transition"
+            className="bg-white shadow-lg rounded overflow-hidden hover:shadow-xl transition cursor-pointer"
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: index * 0.2 }}
           >
             <img src={image} alt={title} className="w-full h-48 object-cover" />
             <div className="p-4">
               <h4 className="text-xl font-semibold mb-2 text-teal-800">{title}</h4>
               <p className="text-gray-700">{description}</p>
             </div>
-          </a>
+          </motion.a>
         ))}
       </div>
     </section>

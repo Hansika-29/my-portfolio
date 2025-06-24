@@ -9,7 +9,7 @@ const Contact = () => {
           e.preventDefault();
           alert('Thanks for reaching out!');
         }}
-        className="bg-white p-6 rounded shadow-md"
+        className="bg-gray-200 p-6 rounded shadow-md"
       >
         <label className="block mb-3">
           <span className="text-gray-700 font-medium">Name :- Hansika Mupparti</span>
